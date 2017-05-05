@@ -17,5 +17,10 @@
     Création d'un fichier nommé .travis.yml avec la configuration pour faire fonctionner les différents modules.
 
 
+3. Run de istanbul
 
+    Lancer la commande suivante pour lancer les tests de couverture :
+    ```
+    $ istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec --recursive
+    ```
 
