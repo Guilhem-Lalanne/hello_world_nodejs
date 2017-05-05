@@ -1,7 +1,10 @@
 {
   "name": "node-example",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "browserify": "^14.3.0",
+    "watchify": "^3.9.0"
+  },
   "engines": {
     "node": "0.6.x"
   },
