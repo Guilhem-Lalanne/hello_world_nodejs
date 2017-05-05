@@ -14,6 +14,6 @@
     "mocha": "^3.3.0"
   },
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "mocha test --recursive"
   }
 }
